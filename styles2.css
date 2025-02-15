@@ -1,0 +1,121 @@
+ body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    transition: all 0.3s ease;
+    background-image: url(/image/bgg.jpg);
+    background-size: 95%;
+     
+   
+}
+
+
+
+.dark-mode {
+    background-color: #1e1e1e;
+    color: #fff;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background: #007bff;
+    color: white;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.main {
+    justify-content: center;
+    text-align: center;
+    padding: 200px 20px;
+    text-shadow: 0px 2px rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    font-size: 30px
+    ;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.project-grid {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+
+.project-card {
+    background: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.dark-mode .project-card {
+    background: #333;
+}
+
+
+.projects h2 {
+    text-align: center; /* Centers the text */
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: rgb(26, 26, 26);
+    text-shadow:
+    0 0 5px rgb(139, 236, 147),
+    0 0 10px rgb(217, 255, 220),
+    0 0 20px rgb(160, 255, 168),
+    0 0 40px rgb(217, 255, 220),
+    0 0 80px rgb(217, 255, 220);
+} 
+
+.about h2 {
+    text-align: center; /* Centers the text */
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: rgb(41, 41, 41);
+    text-shadow:
+    0 0 5px rgb(139, 236, 147),
+    0 0 10px rgb(217, 255, 220),
+    0 0 20px rgb(160, 255, 168),
+    0 0 40px rgb(217, 255, 220),
+    0 0 80px rgb(217, 255, 220);
+} 
+
+
+
+@media only screen and (min-width:1px) and (max-width:700px) {
+    body {
+        background-size: 950px 900px ;
+        background-repeat: no-repeat;
+    }
+  }
+
+  .text{
+    padding: 30px;
+    color: rgb(0, 0, 0);
+    /* text-shadow:
+    0 0 1px rgb(0, 0, 0),
+    0 0 1px rgb(0, 0, 0),
+    0 0 0px rgb(0, 0, 0),
+    0 0 1px rgb(0, 0, 0),
+    0 0 1px rgb(10, 10, 10); */
+
+  }
